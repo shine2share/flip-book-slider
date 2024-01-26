@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js"></script>
+  </head>
+  <body>
+    <div class="book-section">
+      <div class="container">
+        <div class="right">
+          <figure class="back" id="back-cover"></figure>
+          <figure
+            class="front"
+            style="background-image: url('./images/slide6.jpg')"
+          ></figure>
+        </div>
+        <div class="right">
+          <figure
+            class="back"
+            style="background-image: url('./images/slide6.jpg')"
+          ></figure>
+          <figure
+            class="front"
+            style="background-image: url('./images/slide5.jpg')"
+          ></figure>
+        </div>
+        <div class="right">
+          <figure
+            class="back"
+            style="background-image: url('./images/slide5.jpg')"
+          ></figure>
+          <figure
+            class="front"
+            style="background-image: url('./images/slide4.jpg')"
+          ></figure>
+        </div>
+        <div class="right">
+          <figure
+            class="back"
+            style="background-image: url('./images/slide4.jpg')"
+          ></figure>
+          <figure
+            class="front"
+            style="background-image: url('./images/slide3.jpg')"
+          ></figure>
+        </div>
+        <div class="right">
+          <figure
+            class="back"
+            style="background-image: url('./images/slide3.jpg')"
+          ></figure>
+          <figure
+            class="front"
+            style="background-image: url('./images/slide2.jpg')"
+          ></figure>
+        </div>
+        <div class="right">
+          <figure
+            class="back"
+            style="background-image: url('./images/slide2.jpg')"
+          ></figure>
+          <figure
+            class="front"
+            style="background-image: url('./images/slide1.jpg')"
+          ></figure>
+        </div>
+        <div class="right">
+          <figure
+            class="back"
+            style="background-image: url('./images/slide1.jpg')"
+          ></figure>
+          <figure class="front" id="cover">
+            <h1>Book Title</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Adipisci, modi.
+            </p>
+          </figure>
+        </div>
+        <video id="2Play" width="400" controls>
+          <source src="./videos/bpa.mp4" type="video/mp4" />
+          Your browser does not support HTML video.
+        </video>
+      </div>
+      <button type="button" onclick="turnLeft()">Prev</button>
+      <button type="button" onclick="turnRight()">Next</button>
+    </div>
+  </body>
+</html>
